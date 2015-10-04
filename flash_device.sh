@@ -13,14 +13,6 @@ if [ -z $bin ]; then
 	exit 1
 fi
 cat <<HEADER
-l-----------------------------------------------------------------------l
-l  ll====  ll    ll  ll      ll      ll      ll ====== ll====l ll====   l
-l  ll      ll    ll  ll      ll      ll      ll   ll   ll    l ll       l
-l  ll====  ll    ll  ll      ll      ll  /\  ll   ll   ll====l ll====   l
-l  ll      ll    ll  ll      ll      ll //\\\ ll   ll   ll      ll       l
-l  ll      \\\====//  ll====  ll====  ll//  \\\ll ====== ll      ll====   l
-l-----------------------------------------------------------------------l
-
              Created by Georgii Savatkov
 	       Script to flash your device with full firmware
                                     -
