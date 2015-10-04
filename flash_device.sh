@@ -4,7 +4,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 	
 print() {
-		printf "$1 $2 ${NC}"
+		printf "$1 $2 ${NC}\n"
 }
 
 bin=`which fastboot | awk '{ print \$1 }'`
@@ -44,7 +44,7 @@ if [ $devs -ge 1 ]; then
 
 	print $NC "Flashing partition..."
 	$bin flash partition ./gpt.bin
-	print $GREEN "done" # done
+	print $GREEN "Done" # done
 	print $NC "Flashing motoboot..."
 	$bin flash motoboot ./motoboot.img
 	print $GREEN "Done" #done
